@@ -112,6 +112,8 @@ ggplot(data = data, aes(x = BMI, y = Outcome)) +
   geom_point()
 
 ```
+\newline
+
 However, it does not seem to tell me anything. I will try out other variables.
 
 ```{r scatter2, echo=TRUE}
@@ -129,7 +131,12 @@ ggplot(data = data, aes(x = BMI, y = Age, label = Outcome)) +
 
 
 ```
-It does not seem to have a string linear relationship.
+\newline
 
 
+It does not seem to have a strong linear relationship.
+
+##Conclusion
+
+In conclusion, the model I build with the highest accuracy rate is 79.6%. I have not yet plotted the graph of other predictors because I consider unnecessary due few amount of data. However, I have demonstrate my capability of the usings ggplot2 and usage of rpart and randomforest to model my beginner model.
 
